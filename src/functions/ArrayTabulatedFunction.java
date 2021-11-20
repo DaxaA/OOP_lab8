@@ -268,7 +268,7 @@ public class ArrayTabulatedFunction implements TabulatedFunction, Serializable {
     public Object clone() {
         FunctionPoint[] newPm = new FunctionPoint[pC];
         for (int i = 0; i < pC; i++) {
-            newPm[i] = (FunctionPoint) pM[i].clone();
+            newPm[i] = pM[i].clone();
         }
         return new ArrayTabulatedFunction(newPm);
     }

@@ -1,8 +1,5 @@
 import functions.*;
-import functions.basic.Cos;
-import functions.basic.Log;
 import functions.basic.Sin;
-import threads.*;
 
 public class Main {
     public static void main(String[] args) {
